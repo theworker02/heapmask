@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/heapmask",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Heap identifiers and mask tokens for idempotent workflows.",
+  "bin": {
+    "heapmask": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/heapmask.git"
+  },
+  "homepage": "https://theworker02.github.io/heapmask/",
+  "keywords": [
+    "heap",
+    "mask",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
